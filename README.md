@@ -43,3 +43,20 @@
 		}
 	}
 }
+
+js:
+
+	new fullpage('#fullpage', {
+		//options here
+		css3: true,
+		controlArrows: false,
+		anchors: ['home', 'girl', 'services', 'contact'],
+		menu: '#sideMenu',
+		loopBottom: true,
+		parallax: true,
+		scrollHorizontally:true,
+		fadingEffect:true,
+		scrollingSpeed: 1000
+	});
+	//methods
+	fullpage_api.setAllowScrolling(true);
